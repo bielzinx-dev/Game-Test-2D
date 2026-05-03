@@ -18,4 +18,9 @@ public class Menu : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void Voltar()
+    {
+        SceneManager.LoadScene("Inicio");
+    }
 }
